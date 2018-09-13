@@ -55,26 +55,6 @@ df_other['e2x2'] = e2x2
 
 data_relation = df_other.predicate.unique()
 
-_hyponym = []
-_hypernym = []
-_member_holonym = []
-_derivationally_related_form = []
-_instance_hypernym = []
-_also_see = []
-_member_meronym = []
-_member_of_domain_topic = []
-_part_of = []
-_instance_hyponym = []
-_synset_domain_topic_of = []
-_has_part = []
-_member_of_domain_usage = []
-_member_of_domain_region = []
-_synset_domain_usage_of = []
-_synset_domain_region_of = []
-_verb_group = []
-_similar_to = []
-
-list
 i=0
 df_other.columns = ['subject','predicate','object','_hyponym','_hypernym','_member_holonym','_derivationally_related_form',
                     '_instance_hypernym','_also_see','_member_meronym','_member_of_domain_topic','_part_of',
